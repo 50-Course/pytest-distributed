@@ -1,12 +1,12 @@
 [tool.poetry]
-name = "py-template"
+name = "pytest-distributed"
 version = "0.1.0"
-description = "It's a Python project template!"
+description = "A modern approach to distributed testing with pytest"
 authors = ["sco1 <sco1.git@gmail.com>"]
 
 readme = "README.md"
 homepage = "https://github.com/sco1/"
-repository = "https://github.com/sco1/py-template"
+repository = "https://github.com/sco1/pytest-distributed"
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
@@ -45,7 +45,7 @@ line-length = 100
 
 [tool.isort]
 case_sensitive = true
-known_first_party = "py-template,tests"
+known_first_party = "pytest-distributed,tests"
 no_lines_before = "LOCALFOLDER"
 order_by_type = false
 profile = "black"
